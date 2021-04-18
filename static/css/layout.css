@@ -424,6 +424,7 @@ ul#nav li.active a { color: #FF9B54; }
 #activity .timeline-inverted p {text-align:right}
 #activity h4 { color: #FAA916; }
 #activity h6 { color: #313131; }
+#activity a { color: #A3A3A3; text-decoration:underline; }
 
 #activity h3 {
    font: 24px/30px montserrat-regular, sans-serif;
