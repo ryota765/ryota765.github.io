@@ -391,7 +391,7 @@ ul#nav li.active a { color: #FF9B54; }
    margin-bottom: 24px;
    color: #6E6E6E;
 }
-#about a, #about a:visited  { color: #838C95; }
+#about a, #about a:visited  { color: #A3A3A3; }
 
 #about .process-wrap .col { width: 50%; }
 #about .team-wrap { margin-bottom: 24px; }
