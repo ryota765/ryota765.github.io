@@ -1,0 +1,109 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background:  #25292D url(../images/patterns/servicesbg.png);
+}
+h1, h2, h3, p, footer {
+    text-align: center;
+}
+h1 {
+    margin-bottom: 0;
+    color: #FF9B54;
+}
+h2 {
+    margin-top: 0.5em;
+    font-size: 1em;
+    font-weight: normal;
+    color: #57606B;
+}
+h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #FF9B54;
+}
+footer {
+    font-size: 0.8em;
+    padding: 1em;
+    color: #57606B;
+}
+a, a:visited {
+    color: grey;
+}
+#container, #preGameControls, #inGameControls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.redPiece{
+    fill: #FF9B54;
+}
+.yellowPiece{
+    fill: #037a8fe1;
+}
+#msg {
+    color: grey;
+    margin: -2px 0 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid grey;
+    width: 100%;
+}
+.controlRow {
+    margin: 5px 0;
+    color: grey;
+}
+#difficultyValue {
+    text-align: center;
+}
+
+#userRed {
+    background-color: #FF9B54;
+}
+#userYellow {
+    background-color: #037a8fe1;
+}
+.userColour {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-left: 5px;
+    cursor:pointer;
+}
+.userColour.selected {
+    border: 1px solid #ddd;
+    cursor:default;
+}
+#controlColourRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: grey;
+}
+button {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: grey;
+}
+button:hover {
+    border-width: 2px;
+    margin: -1px;
+}
+svg #Outer.highlight {
+    fill: grey;
+    stroke: grey;
+}
+@media screen and (max-width:479px) {
+    #container {
+        max-width: 100%;
+    }
+}
