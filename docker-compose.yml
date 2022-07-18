@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  jekyll:
+    image: jekyll/jekyll:4.1.0
+    command: >
+      jekyll serve \
+      --watch \
+      --force_polling \
+      --verbose \
+      --trace \
+      --strict_front_matter
+    ports:
+      - 4001:4000
+    volumes:
+      - .:/srv/jekyll

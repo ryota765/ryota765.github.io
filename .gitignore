@@ -1,0 +1,3 @@
+# ignore files related to development
+.jekyll-cache/*
+_site/*
