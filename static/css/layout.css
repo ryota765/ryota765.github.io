@@ -253,9 +253,9 @@ ul#nav li.active a { color: #FF9B54; }
 #portfolio p {text-align:center}
 
 /* Portfolio Content */
-#portfolio-wrapper { margin-top: 36px; }
+#portfolio-wrapper { margin-top: 12px; }
 #portfolio-wrapper .col {
-   width: 50%;
+   width: 25%;
    margin-bottom: 28px;
 }
 
@@ -280,18 +280,18 @@ ul#nav li.active a { color: #FF9B54; }
    -webkit-transform : translate(-50%,-50%);
    transform : translate(-50%,-50%);
    white-space: nowrap;
-   font-size:		200%;
+   font-size:		125%;
    font: sans-serif;
    font-weight: 800;
 	text-align: center;
 	color:			#fff;
 }
 .portfolio-item .mask{
-   width:			92.8%;
+   width:			92%;
 	height:			98.15%;
 	position:		absolute;	/* 絶対位置指定 */
 	top:			0;
-   left:			3.65%;
+   left:			3.8%;
 	opacity:		0;	/* マスクを表示しない */
 	background-color:	rgba(0,0,0,0.7);	/* マスクは半透明 */
 	-webkit-transition:	all 0.5s ease;
@@ -640,7 +640,7 @@ footer .social-links li:first-child { margin-left: 0; }
    /* portfolio section
    -------------------------------------------------------------------- */
    #portfolio #portfolio-wrapper { margin-top: 12px; }
-   #portfolio #portfolio-wrapper .col { width: 33.33333%; }
+   #portfolio #portfolio-wrapper .col { width: 25%; }
 
    /* journal section
    -------------------------------------------------------------------- */
